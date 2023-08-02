@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+    <title>MDB5 I Am Parent</title>
+{% endblock %}
+
+
+
+
+<link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+
+
+    
+</head>
+
+
+
+<body>
+    <button type="button" class="btn btn-primary">buttton</button>
+
+   <h2>This is middle line of father</h2>
+    
+<h2>This last line of father</h2>
+
+
+{% block body_block %}
+{% endblock %}
+
+  <script src="{% static 'js/mdb.min.js' %}"></script>
+
+    </body>
+    </html>
+
+
+    
